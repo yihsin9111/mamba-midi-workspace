@@ -1,0 +1,1141 @@
+{
+    "text_encoder": {
+        "shared": "Embedding",
+        "encoder": {
+            "embed_tokens": "Embedding",
+            "block": {
+                "0": {
+                    "layer": {
+                        "0": {
+                            "SelfAttention": {
+                                "q": "Linear",
+                                "k": "Linear",
+                                "v": "Linear",
+                                "o": "Linear",
+                                "relative_attention_bias": "Embedding"
+                            },
+                            "layer_norm": "T5LayerNorm",
+                            "dropout": "Dropout"
+                        },
+                        "1": {
+                            "DenseReluDense": {
+                                "wi_0": "Linear",
+                                "wi_1": "Linear",
+                                "wo": "Linear",
+                                "dropout": "Dropout",
+                                "act": "NewGELUActivation"
+                            },
+                            "layer_norm": "T5LayerNorm",
+                            "dropout": "Dropout"
+                        }
+                    }
+                },
+                "1": {
+                    "layer": {
+                        "0": {
+                            "SelfAttention": {
+                                "q": "Linear",
+                                "k": "Linear",
+                                "v": "Linear",
+                                "o": "Linear"
+                            },
+                            "layer_norm": "T5LayerNorm",
+                            "dropout": "Dropout"
+                        },
+                        "1": {
+                            "DenseReluDense": {
+                                "wi_0": "Linear",
+                                "wi_1": "Linear",
+                                "wo": "Linear",
+                                "dropout": "Dropout",
+                                "act": "NewGELUActivation"
+                            },
+                            "layer_norm": "T5LayerNorm",
+                            "dropout": "Dropout"
+                        }
+                    }
+                },
+                "2": {
+                    "layer": {
+                        "0": {
+                            "SelfAttention": {
+                                "q": "Linear",
+                                "k": "Linear",
+                                "v": "Linear",
+                                "o": "Linear"
+                            },
+                            "layer_norm": "T5LayerNorm",
+                            "dropout": "Dropout"
+                        },
+                        "1": {
+                            "DenseReluDense": {
+                                "wi_0": "Linear",
+                                "wi_1": "Linear",
+                                "wo": "Linear",
+                                "dropout": "Dropout",
+                                "act": "NewGELUActivation"
+                            },
+                            "layer_norm": "T5LayerNorm",
+                            "dropout": "Dropout"
+                        }
+                    }
+                },
+                "3": {
+                    "layer": {
+                        "0": {
+                            "SelfAttention": {
+                                "q": "Linear",
+                                "k": "Linear",
+                                "v": "Linear",
+                                "o": "Linear"
+                            },
+                            "layer_norm": "T5LayerNorm",
+                            "dropout": "Dropout"
+                        },
+                        "1": {
+                            "DenseReluDense": {
+                                "wi_0": "Linear",
+                                "wi_1": "Linear",
+                                "wo": "Linear",
+                                "dropout": "Dropout",
+                                "act": "NewGELUActivation"
+                            },
+                            "layer_norm": "T5LayerNorm",
+                            "dropout": "Dropout"
+                        }
+                    }
+                },
+                "4": {
+                    "layer": {
+                        "0": {
+                            "SelfAttention": {
+                                "q": "Linear",
+                                "k": "Linear",
+                                "v": "Linear",
+                                "o": "Linear"
+                            },
+                            "layer_norm": "T5LayerNorm",
+                            "dropout": "Dropout"
+                        },
+                        "1": {
+                            "DenseReluDense": {
+                                "wi_0": "Linear",
+                                "wi_1": "Linear",
+                                "wo": "Linear",
+                                "dropout": "Dropout",
+                                "act": "NewGELUActivation"
+                            },
+                            "layer_norm": "T5LayerNorm",
+                            "dropout": "Dropout"
+                        }
+                    }
+                },
+                "5": {
+                    "layer": {
+                        "0": {
+                            "SelfAttention": {
+                                "q": "Linear",
+                                "k": "Linear",
+                                "v": "Linear",
+                                "o": "Linear"
+                            },
+                            "layer_norm": "T5LayerNorm",
+                            "dropout": "Dropout"
+                        },
+                        "1": {
+                            "DenseReluDense": {
+                                "wi_0": "Linear",
+                                "wi_1": "Linear",
+                                "wo": "Linear",
+                                "dropout": "Dropout",
+                                "act": "NewGELUActivation"
+                            },
+                            "layer_norm": "T5LayerNorm",
+                            "dropout": "Dropout"
+                        }
+                    }
+                },
+                "6": {
+                    "layer": {
+                        "0": {
+                            "SelfAttention": {
+                                "q": "Linear",
+                                "k": "Linear",
+                                "v": "Linear",
+                                "o": "Linear"
+                            },
+                            "layer_norm": "T5LayerNorm",
+                            "dropout": "Dropout"
+                        },
+                        "1": {
+                            "DenseReluDense": {
+                                "wi_0": "Linear",
+                                "wi_1": "Linear",
+                                "wo": "Linear",
+                                "dropout": "Dropout",
+                                "act": "NewGELUActivation"
+                            },
+                            "layer_norm": "T5LayerNorm",
+                            "dropout": "Dropout"
+                        }
+                    }
+                },
+                "7": {
+                    "layer": {
+                        "0": {
+                            "SelfAttention": {
+                                "q": "Linear",
+                                "k": "Linear",
+                                "v": "Linear",
+                                "o": "Linear"
+                            },
+                            "layer_norm": "T5LayerNorm",
+                            "dropout": "Dropout"
+                        },
+                        "1": {
+                            "DenseReluDense": {
+                                "wi_0": "Linear",
+                                "wi_1": "Linear",
+                                "wo": "Linear",
+                                "dropout": "Dropout",
+                                "act": "NewGELUActivation"
+                            },
+                            "layer_norm": "T5LayerNorm",
+                            "dropout": "Dropout"
+                        }
+                    }
+                },
+                "8": {
+                    "layer": {
+                        "0": {
+                            "SelfAttention": {
+                                "q": "Linear",
+                                "k": "Linear",
+                                "v": "Linear",
+                                "o": "Linear"
+                            },
+                            "layer_norm": "T5LayerNorm",
+                            "dropout": "Dropout"
+                        },
+                        "1": {
+                            "DenseReluDense": {
+                                "wi_0": "Linear",
+                                "wi_1": "Linear",
+                                "wo": "Linear",
+                                "dropout": "Dropout",
+                                "act": "NewGELUActivation"
+                            },
+                            "layer_norm": "T5LayerNorm",
+                            "dropout": "Dropout"
+                        }
+                    }
+                },
+                "9": {
+                    "layer": {
+                        "0": {
+                            "SelfAttention": {
+                                "q": "Linear",
+                                "k": "Linear",
+                                "v": "Linear",
+                                "o": "Linear"
+                            },
+                            "layer_norm": "T5LayerNorm",
+                            "dropout": "Dropout"
+                        },
+                        "1": {
+                            "DenseReluDense": {
+                                "wi_0": "Linear",
+                                "wi_1": "Linear",
+                                "wo": "Linear",
+                                "dropout": "Dropout",
+                                "act": "NewGELUActivation"
+                            },
+                            "layer_norm": "T5LayerNorm",
+                            "dropout": "Dropout"
+                        }
+                    }
+                },
+                "10": {
+                    "layer": {
+                        "0": {
+                            "SelfAttention": {
+                                "q": "Linear",
+                                "k": "Linear",
+                                "v": "Linear",
+                                "o": "Linear"
+                            },
+                            "layer_norm": "T5LayerNorm",
+                            "dropout": "Dropout"
+                        },
+                        "1": {
+                            "DenseReluDense": {
+                                "wi_0": "Linear",
+                                "wi_1": "Linear",
+                                "wo": "Linear",
+                                "dropout": "Dropout",
+                                "act": "NewGELUActivation"
+                            },
+                            "layer_norm": "T5LayerNorm",
+                            "dropout": "Dropout"
+                        }
+                    }
+                },
+                "11": {
+                    "layer": {
+                        "0": {
+                            "SelfAttention": {
+                                "q": "Linear",
+                                "k": "Linear",
+                                "v": "Linear",
+                                "o": "Linear"
+                            },
+                            "layer_norm": "T5LayerNorm",
+                            "dropout": "Dropout"
+                        },
+                        "1": {
+                            "DenseReluDense": {
+                                "wi_0": "Linear",
+                                "wi_1": "Linear",
+                                "wo": "Linear",
+                                "dropout": "Dropout",
+                                "act": "NewGELUActivation"
+                            },
+                            "layer_norm": "T5LayerNorm",
+                            "dropout": "Dropout"
+                        }
+                    }
+                }
+            },
+            "final_layer_norm": "T5LayerNorm",
+            "dropout": "Dropout"
+        }
+    },
+    "music_model": {
+        "condition_norm": "LayerNorm",
+        "condition_linear": "Linear",
+        "embedding": {
+            "0": "ScaledEmbedding"
+        },
+        "backbone": {
+            "0": {
+                "mamba": {
+                    "norm": "RMSNorm",
+                    "drop": "Dropout",
+                    "mamba": {
+                        "in_proj": "Linear",
+                        "conv1d": "Conv1d",
+                        "act": "SiLU",
+                        "norm": "RMSNorm",
+                        "out_proj": "Linear"
+                    }
+                },
+                "cross_atten": {
+                    "norm": "RMSNorm",
+                    "drop": "Dropout",
+                    "cross_atten": {
+                        "to_q": "Linear",
+                        "to_kv": "Linear",
+                        "attention": {
+                            "to_out": "Linear"
+                        }
+                    }
+                },
+                "ff": {
+                    "norm": "RMSNorm",
+                    "drop": "Dropout",
+                    "feed_forward": {
+                        "0": "Linear",
+                        "1": "GELU",
+                        "2": "Dropout",
+                        "3": "Linear"
+                    }
+                }
+            },
+            "1": {
+                "mamba": {
+                    "norm": "RMSNorm",
+                    "drop": "Dropout",
+                    "mamba": {
+                        "in_proj": "Linear",
+                        "conv1d": "Conv1d",
+                        "act": "SiLU",
+                        "norm": "RMSNorm",
+                        "out_proj": "Linear"
+                    }
+                },
+                "cross_atten": {
+                    "norm": "RMSNorm",
+                    "drop": "Dropout",
+                    "cross_atten": {
+                        "to_q": "Linear",
+                        "to_kv": "Linear",
+                        "attention": {
+                            "to_out": "Linear"
+                        }
+                    }
+                },
+                "ff": {
+                    "norm": "RMSNorm",
+                    "drop": "Dropout",
+                    "feed_forward": {
+                        "0": "Linear",
+                        "1": "GELU",
+                        "2": "Dropout",
+                        "3": "Linear"
+                    }
+                }
+            },
+            "2": {
+                "mamba": {
+                    "norm": "RMSNorm",
+                    "drop": "Dropout",
+                    "mamba": {
+                        "in_proj": "Linear",
+                        "conv1d": "Conv1d",
+                        "act": "SiLU",
+                        "norm": "RMSNorm",
+                        "out_proj": "Linear"
+                    }
+                },
+                "cross_atten": {
+                    "norm": "RMSNorm",
+                    "drop": "Dropout",
+                    "cross_atten": {
+                        "to_q": "Linear",
+                        "to_kv": "Linear",
+                        "attention": {
+                            "to_out": "Linear"
+                        }
+                    }
+                },
+                "ff": {
+                    "norm": "RMSNorm",
+                    "drop": "Dropout",
+                    "feed_forward": {
+                        "0": "Linear",
+                        "1": "GELU",
+                        "2": "Dropout",
+                        "3": "Linear"
+                    }
+                }
+            },
+            "3": {
+                "mamba": {
+                    "norm": "RMSNorm",
+                    "drop": "Dropout",
+                    "mamba": {
+                        "in_proj": "Linear",
+                        "conv1d": "Conv1d",
+                        "act": "SiLU",
+                        "norm": "RMSNorm",
+                        "out_proj": "Linear"
+                    }
+                },
+                "cross_atten": {
+                    "norm": "RMSNorm",
+                    "drop": "Dropout",
+                    "cross_atten": {
+                        "to_q": "Linear",
+                        "to_kv": "Linear",
+                        "attention": {
+                            "to_out": "Linear"
+                        }
+                    }
+                },
+                "ff": {
+                    "norm": "RMSNorm",
+                    "drop": "Dropout",
+                    "feed_forward": {
+                        "0": "Linear",
+                        "1": "GELU",
+                        "2": "Dropout",
+                        "3": "Linear"
+                    }
+                }
+            },
+            "4": {
+                "mamba": {
+                    "norm": "RMSNorm",
+                    "drop": "Dropout",
+                    "mamba": {
+                        "in_proj": "Linear",
+                        "conv1d": "Conv1d",
+                        "act": "SiLU",
+                        "norm": "RMSNorm",
+                        "out_proj": "Linear"
+                    }
+                },
+                "cross_atten": {
+                    "norm": "RMSNorm",
+                    "drop": "Dropout",
+                    "cross_atten": {
+                        "to_q": "Linear",
+                        "to_kv": "Linear",
+                        "attention": {
+                            "to_out": "Linear"
+                        }
+                    }
+                },
+                "ff": {
+                    "norm": "RMSNorm",
+                    "drop": "Dropout",
+                    "feed_forward": {
+                        "0": "Linear",
+                        "1": "GELU",
+                        "2": "Dropout",
+                        "3": "Linear"
+                    }
+                }
+            },
+            "5": {
+                "mamba": {
+                    "norm": "RMSNorm",
+                    "drop": "Dropout",
+                    "mamba": {
+                        "in_proj": "Linear",
+                        "conv1d": "Conv1d",
+                        "act": "SiLU",
+                        "norm": "RMSNorm",
+                        "out_proj": "Linear"
+                    }
+                },
+                "cross_atten": {
+                    "norm": "RMSNorm",
+                    "drop": "Dropout",
+                    "cross_atten": {
+                        "to_q": "Linear",
+                        "to_kv": "Linear",
+                        "attention": {
+                            "to_out": "Linear"
+                        }
+                    }
+                },
+                "ff": {
+                    "norm": "RMSNorm",
+                    "drop": "Dropout",
+                    "feed_forward": {
+                        "0": "Linear",
+                        "1": "GELU",
+                        "2": "Dropout",
+                        "3": "Linear"
+                    }
+                }
+            },
+            "6": {
+                "mamba": {
+                    "norm": "RMSNorm",
+                    "drop": "Dropout",
+                    "mamba": {
+                        "in_proj": "Linear",
+                        "conv1d": "Conv1d",
+                        "act": "SiLU",
+                        "norm": "RMSNorm",
+                        "out_proj": "Linear"
+                    }
+                },
+                "cross_atten": {
+                    "norm": "RMSNorm",
+                    "drop": "Dropout",
+                    "cross_atten": {
+                        "to_q": "Linear",
+                        "to_kv": "Linear",
+                        "attention": {
+                            "to_out": "Linear"
+                        }
+                    }
+                },
+                "ff": {
+                    "norm": "RMSNorm",
+                    "drop": "Dropout",
+                    "feed_forward": {
+                        "0": "Linear",
+                        "1": "GELU",
+                        "2": "Dropout",
+                        "3": "Linear"
+                    }
+                }
+            },
+            "7": {
+                "mamba": {
+                    "norm": "RMSNorm",
+                    "drop": "Dropout",
+                    "mamba": {
+                        "in_proj": "Linear",
+                        "conv1d": "Conv1d",
+                        "act": "SiLU",
+                        "norm": "RMSNorm",
+                        "out_proj": "Linear"
+                    }
+                },
+                "cross_atten": {
+                    "norm": "RMSNorm",
+                    "drop": "Dropout",
+                    "cross_atten": {
+                        "to_q": "Linear",
+                        "to_kv": "Linear",
+                        "attention": {
+                            "to_out": "Linear"
+                        }
+                    }
+                },
+                "ff": {
+                    "norm": "RMSNorm",
+                    "drop": "Dropout",
+                    "feed_forward": {
+                        "0": "Linear",
+                        "1": "GELU",
+                        "2": "Dropout",
+                        "3": "Linear"
+                    }
+                }
+            },
+            "8": {
+                "mamba": {
+                    "norm": "RMSNorm",
+                    "drop": "Dropout",
+                    "mamba": {
+                        "in_proj": "Linear",
+                        "conv1d": "Conv1d",
+                        "act": "SiLU",
+                        "norm": "RMSNorm",
+                        "out_proj": "Linear"
+                    }
+                },
+                "cross_atten": {
+                    "norm": "RMSNorm",
+                    "drop": "Dropout",
+                    "cross_atten": {
+                        "to_q": "Linear",
+                        "to_kv": "Linear",
+                        "attention": {
+                            "to_out": "Linear"
+                        }
+                    }
+                },
+                "ff": {
+                    "norm": "RMSNorm",
+                    "drop": "Dropout",
+                    "feed_forward": {
+                        "0": "Linear",
+                        "1": "GELU",
+                        "2": "Dropout",
+                        "3": "Linear"
+                    }
+                }
+            },
+            "9": {
+                "mamba": {
+                    "norm": "RMSNorm",
+                    "drop": "Dropout",
+                    "mamba": {
+                        "in_proj": "Linear",
+                        "conv1d": "Conv1d",
+                        "act": "SiLU",
+                        "norm": "RMSNorm",
+                        "out_proj": "Linear"
+                    }
+                },
+                "cross_atten": {
+                    "norm": "RMSNorm",
+                    "drop": "Dropout",
+                    "cross_atten": {
+                        "to_q": "Linear",
+                        "to_kv": "Linear",
+                        "attention": {
+                            "to_out": "Linear"
+                        }
+                    }
+                },
+                "ff": {
+                    "norm": "RMSNorm",
+                    "drop": "Dropout",
+                    "feed_forward": {
+                        "0": "Linear",
+                        "1": "GELU",
+                        "2": "Dropout",
+                        "3": "Linear"
+                    }
+                }
+            },
+            "10": {
+                "mamba": {
+                    "norm": "RMSNorm",
+                    "drop": "Dropout",
+                    "mamba": {
+                        "in_proj": "Linear",
+                        "conv1d": "Conv1d",
+                        "act": "SiLU",
+                        "norm": "RMSNorm",
+                        "out_proj": "Linear"
+                    }
+                },
+                "cross_atten": {
+                    "norm": "RMSNorm",
+                    "drop": "Dropout",
+                    "cross_atten": {
+                        "to_q": "Linear",
+                        "to_kv": "Linear",
+                        "attention": {
+                            "to_out": "Linear"
+                        }
+                    }
+                },
+                "ff": {
+                    "norm": "RMSNorm",
+                    "drop": "Dropout",
+                    "feed_forward": {
+                        "0": "Linear",
+                        "1": "GELU",
+                        "2": "Dropout",
+                        "3": "Linear"
+                    }
+                }
+            },
+            "11": {
+                "mamba": {
+                    "norm": "RMSNorm",
+                    "drop": "Dropout",
+                    "mamba": {
+                        "in_proj": "Linear",
+                        "conv1d": "Conv1d",
+                        "act": "SiLU",
+                        "norm": "RMSNorm",
+                        "out_proj": "Linear"
+                    }
+                },
+                "cross_atten": {
+                    "norm": "RMSNorm",
+                    "drop": "Dropout",
+                    "cross_atten": {
+                        "to_q": "Linear",
+                        "to_kv": "Linear",
+                        "attention": {
+                            "to_out": "Linear"
+                        }
+                    }
+                },
+                "ff": {
+                    "norm": "RMSNorm",
+                    "drop": "Dropout",
+                    "feed_forward": {
+                        "0": "Linear",
+                        "1": "GELU",
+                        "2": "Dropout",
+                        "3": "Linear"
+                    }
+                }
+            },
+            "12": {
+                "mamba": {
+                    "norm": "RMSNorm",
+                    "drop": "Dropout",
+                    "mamba": {
+                        "in_proj": "Linear",
+                        "conv1d": "Conv1d",
+                        "act": "SiLU",
+                        "norm": "RMSNorm",
+                        "out_proj": "Linear"
+                    }
+                },
+                "cross_atten": {
+                    "norm": "RMSNorm",
+                    "drop": "Dropout",
+                    "cross_atten": {
+                        "to_q": "Linear",
+                        "to_kv": "Linear",
+                        "attention": {
+                            "to_out": "Linear"
+                        }
+                    }
+                },
+                "ff": {
+                    "norm": "RMSNorm",
+                    "drop": "Dropout",
+                    "feed_forward": {
+                        "0": "Linear",
+                        "1": "GELU",
+                        "2": "Dropout",
+                        "3": "Linear"
+                    }
+                }
+            },
+            "13": {
+                "mamba": {
+                    "norm": "RMSNorm",
+                    "drop": "Dropout",
+                    "mamba": {
+                        "in_proj": "Linear",
+                        "conv1d": "Conv1d",
+                        "act": "SiLU",
+                        "norm": "RMSNorm",
+                        "out_proj": "Linear"
+                    }
+                },
+                "cross_atten": {
+                    "norm": "RMSNorm",
+                    "drop": "Dropout",
+                    "cross_atten": {
+                        "to_q": "Linear",
+                        "to_kv": "Linear",
+                        "attention": {
+                            "to_out": "Linear"
+                        }
+                    }
+                },
+                "ff": {
+                    "norm": "RMSNorm",
+                    "drop": "Dropout",
+                    "feed_forward": {
+                        "0": "Linear",
+                        "1": "GELU",
+                        "2": "Dropout",
+                        "3": "Linear"
+                    }
+                }
+            },
+            "14": {
+                "mamba": {
+                    "norm": "RMSNorm",
+                    "drop": "Dropout",
+                    "mamba": {
+                        "in_proj": "Linear",
+                        "conv1d": "Conv1d",
+                        "act": "SiLU",
+                        "norm": "RMSNorm",
+                        "out_proj": "Linear"
+                    }
+                },
+                "cross_atten": {
+                    "norm": "RMSNorm",
+                    "drop": "Dropout",
+                    "cross_atten": {
+                        "to_q": "Linear",
+                        "to_kv": "Linear",
+                        "attention": {
+                            "to_out": "Linear"
+                        }
+                    }
+                },
+                "ff": {
+                    "norm": "RMSNorm",
+                    "drop": "Dropout",
+                    "feed_forward": {
+                        "0": "Linear",
+                        "1": "GELU",
+                        "2": "Dropout",
+                        "3": "Linear"
+                    }
+                }
+            },
+            "15": {
+                "mamba": {
+                    "norm": "RMSNorm",
+                    "drop": "Dropout",
+                    "mamba": {
+                        "in_proj": "Linear",
+                        "conv1d": "Conv1d",
+                        "act": "SiLU",
+                        "norm": "RMSNorm",
+                        "out_proj": "Linear"
+                    }
+                },
+                "cross_atten": {
+                    "norm": "RMSNorm",
+                    "drop": "Dropout",
+                    "cross_atten": {
+                        "to_q": "Linear",
+                        "to_kv": "Linear",
+                        "attention": {
+                            "to_out": "Linear"
+                        }
+                    }
+                },
+                "ff": {
+                    "norm": "RMSNorm",
+                    "drop": "Dropout",
+                    "feed_forward": {
+                        "0": "Linear",
+                        "1": "GELU",
+                        "2": "Dropout",
+                        "3": "Linear"
+                    }
+                }
+            },
+            "16": {
+                "mamba": {
+                    "norm": "RMSNorm",
+                    "drop": "Dropout",
+                    "mamba": {
+                        "in_proj": "Linear",
+                        "conv1d": "Conv1d",
+                        "act": "SiLU",
+                        "norm": "RMSNorm",
+                        "out_proj": "Linear"
+                    }
+                },
+                "cross_atten": {
+                    "norm": "RMSNorm",
+                    "drop": "Dropout",
+                    "cross_atten": {
+                        "to_q": "Linear",
+                        "to_kv": "Linear",
+                        "attention": {
+                            "to_out": "Linear"
+                        }
+                    }
+                },
+                "ff": {
+                    "norm": "RMSNorm",
+                    "drop": "Dropout",
+                    "feed_forward": {
+                        "0": "Linear",
+                        "1": "GELU",
+                        "2": "Dropout",
+                        "3": "Linear"
+                    }
+                }
+            },
+            "17": {
+                "mamba": {
+                    "norm": "RMSNorm",
+                    "drop": "Dropout",
+                    "mamba": {
+                        "in_proj": "Linear",
+                        "conv1d": "Conv1d",
+                        "act": "SiLU",
+                        "norm": "RMSNorm",
+                        "out_proj": "Linear"
+                    }
+                },
+                "cross_atten": {
+                    "norm": "RMSNorm",
+                    "drop": "Dropout",
+                    "cross_atten": {
+                        "to_q": "Linear",
+                        "to_kv": "Linear",
+                        "attention": {
+                            "to_out": "Linear"
+                        }
+                    }
+                },
+                "ff": {
+                    "norm": "RMSNorm",
+                    "drop": "Dropout",
+                    "feed_forward": {
+                        "0": "Linear",
+                        "1": "GELU",
+                        "2": "Dropout",
+                        "3": "Linear"
+                    }
+                }
+            },
+            "18": {
+                "mamba": {
+                    "norm": "RMSNorm",
+                    "drop": "Dropout",
+                    "mamba": {
+                        "in_proj": "Linear",
+                        "conv1d": "Conv1d",
+                        "act": "SiLU",
+                        "norm": "RMSNorm",
+                        "out_proj": "Linear"
+                    }
+                },
+                "cross_atten": {
+                    "norm": "RMSNorm",
+                    "drop": "Dropout",
+                    "cross_atten": {
+                        "to_q": "Linear",
+                        "to_kv": "Linear",
+                        "attention": {
+                            "to_out": "Linear"
+                        }
+                    }
+                },
+                "ff": {
+                    "norm": "RMSNorm",
+                    "drop": "Dropout",
+                    "feed_forward": {
+                        "0": "Linear",
+                        "1": "GELU",
+                        "2": "Dropout",
+                        "3": "Linear"
+                    }
+                }
+            },
+            "19": {
+                "mamba": {
+                    "norm": "RMSNorm",
+                    "drop": "Dropout",
+                    "mamba": {
+                        "in_proj": "Linear",
+                        "conv1d": "Conv1d",
+                        "act": "SiLU",
+                        "norm": "RMSNorm",
+                        "out_proj": "Linear"
+                    }
+                },
+                "cross_atten": {
+                    "norm": "RMSNorm",
+                    "drop": "Dropout",
+                    "cross_atten": {
+                        "to_q": "Linear",
+                        "to_kv": "Linear",
+                        "attention": {
+                            "to_out": "Linear"
+                        }
+                    }
+                },
+                "ff": {
+                    "norm": "RMSNorm",
+                    "drop": "Dropout",
+                    "feed_forward": {
+                        "0": "Linear",
+                        "1": "GELU",
+                        "2": "Dropout",
+                        "3": "Linear"
+                    }
+                }
+            },
+            "20": {
+                "mamba": {
+                    "norm": "RMSNorm",
+                    "drop": "Dropout",
+                    "mamba": {
+                        "in_proj": "Linear",
+                        "conv1d": "Conv1d",
+                        "act": "SiLU",
+                        "norm": "RMSNorm",
+                        "out_proj": "Linear"
+                    }
+                },
+                "cross_atten": {
+                    "norm": "RMSNorm",
+                    "drop": "Dropout",
+                    "cross_atten": {
+                        "to_q": "Linear",
+                        "to_kv": "Linear",
+                        "attention": {
+                            "to_out": "Linear"
+                        }
+                    }
+                },
+                "ff": {
+                    "norm": "RMSNorm",
+                    "drop": "Dropout",
+                    "feed_forward": {
+                        "0": "Linear",
+                        "1": "GELU",
+                        "2": "Dropout",
+                        "3": "Linear"
+                    }
+                }
+            },
+            "21": {
+                "mamba": {
+                    "norm": "RMSNorm",
+                    "drop": "Dropout",
+                    "mamba": {
+                        "in_proj": "Linear",
+                        "conv1d": "Conv1d",
+                        "act": "SiLU",
+                        "norm": "RMSNorm",
+                        "out_proj": "Linear"
+                    }
+                },
+                "cross_atten": {
+                    "norm": "RMSNorm",
+                    "drop": "Dropout",
+                    "cross_atten": {
+                        "to_q": "Linear",
+                        "to_kv": "Linear",
+                        "attention": {
+                            "to_out": "Linear"
+                        }
+                    }
+                },
+                "ff": {
+                    "norm": "RMSNorm",
+                    "drop": "Dropout",
+                    "feed_forward": {
+                        "0": "Linear",
+                        "1": "GELU",
+                        "2": "Dropout",
+                        "3": "Linear"
+                    }
+                }
+            },
+            "22": {
+                "mamba": {
+                    "norm": "RMSNorm",
+                    "drop": "Dropout",
+                    "mamba": {
+                        "in_proj": "Linear",
+                        "conv1d": "Conv1d",
+                        "act": "SiLU",
+                        "norm": "RMSNorm",
+                        "out_proj": "Linear"
+                    }
+                },
+                "cross_atten": {
+                    "norm": "RMSNorm",
+                    "drop": "Dropout",
+                    "cross_atten": {
+                        "to_q": "Linear",
+                        "to_kv": "Linear",
+                        "attention": {
+                            "to_out": "Linear"
+                        }
+                    }
+                },
+                "ff": {
+                    "norm": "RMSNorm",
+                    "drop": "Dropout",
+                    "feed_forward": {
+                        "0": "Linear",
+                        "1": "GELU",
+                        "2": "Dropout",
+                        "3": "Linear"
+                    }
+                }
+            },
+            "23": {
+                "mamba": {
+                    "norm": "RMSNorm",
+                    "drop": "Dropout",
+                    "mamba": {
+                        "in_proj": "Linear",
+                        "conv1d": "Conv1d",
+                        "act": "SiLU",
+                        "norm": "RMSNorm",
+                        "out_proj": "Linear"
+                    }
+                },
+                "cross_atten": {
+                    "norm": "RMSNorm",
+                    "drop": "Dropout",
+                    "cross_atten": {
+                        "to_q": "Linear",
+                        "to_kv": "Linear",
+                        "attention": {
+                            "to_out": "Linear"
+                        }
+                    }
+                },
+                "ff": {
+                    "norm": "RMSNorm",
+                    "drop": "Dropout",
+                    "feed_forward": {
+                        "0": "Linear",
+                        "1": "GELU",
+                        "2": "Dropout",
+                        "3": "Linear"
+                    }
+                }
+            }
+        },
+        "lm_head": {
+            "0": "Linear"
+        }
+    }
+}

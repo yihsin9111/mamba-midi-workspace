@@ -1,0 +1,28 @@
+config:
+  model:
+    codec_layer: 1
+    d_model: 1024
+    d_state: 512
+    drop_p: 0.3
+    is_incontext: false
+    is_pure_mamba: false
+    layers: 24
+    num_heads: 8
+    self_atten_layers: []
+    vocab_size: 1025
+  optimizer:
+    betas: !!python/tuple
+    - 0.9
+    - 0.999
+    optim_lr: 0.0001
+    weight_decay: 0.02
+  scheduler:
+    T_max: 62
+    warmup_duration: 100
+  training:
+    accumulation_step: 32
+    batch: 4
+    dataset: Jamendo
+    epoch: 500
+    name: new_project
+    precision: bf16
